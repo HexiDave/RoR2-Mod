@@ -1,0 +1,9 @@
+.git/
+.idea/
+libs/
+packages/
+
+bin/
+obj/
+
+*.sln.DotSettings.user
