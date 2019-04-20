@@ -94,6 +94,16 @@ namespace Patcher
 		
 		public static void Main(string[] args)
 		{
+			// Try to use the first item in the path
+			if (args.Length > 0)
+			{
+				// TODO: Implement Zip file check
+				PatchWithMod(args[0]);
+				return;
+			}
+			
+			// Else, try patching with the local patch file in the directory (good for development)
+			// TODO: Implement local check, then go for GitHub release if missing
 			PatchWithMod(DefaultModFileName);
 		}
 	}
