@@ -10,7 +10,7 @@ namespace Patcher
 	internal class Program
 	{
 		private const string DefaultModFileName = "Assembly-CSharp.HexiDave.mm.dll";
-		private static readonly string DefaultGitHubPatchUrl = $"https://github.com/HexiDave/RoR2-Mod/releases/latest/{FileUtilities.PatchZipFileName}";
+		private static readonly string DefaultGitHubPatchUrl = $"https://github.com/HexiDave/RoR2-Mod/releases/latest/download/{FileUtilities.PatchZipFileName}";
 
 		/// <summary>
 		/// Perform the actual patching of Assembly-CSharp.dll in the Risk of Rain 2 managed folder
