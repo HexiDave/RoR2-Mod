@@ -30,7 +30,7 @@ namespace RoR2
 				smallIconSelectedPath = "Textures/ArtifactIcons/texSacrificeSmallSelected",
 				smallIconDeselectedPath = "Textures/ArtifactIcons/texSacrificeSmallDeselected",
 				unlockableName = "",
-				descriptionToken = "[NON-FUNCTIONING] Chests no longer spawn; monsters now drop items on death."
+				descriptionToken = "[SEMI-FUNCTIONING] Chests no longer spawn (NOTE: incorrect); monsters now drop items on death."
 			});
 			ArtifactCatalog.RegisterArtifact(ArtifactIndex.Enigma, new ArtifactDef
 			{
@@ -46,7 +46,7 @@ namespace RoR2
 				smallIconSelectedPath = "Textures/ArtifactIcons/texSpiritSmallSelected",
 				smallIconDeselectedPath = "Textures/ArtifactIcons/texSpiritSmallDeselected",
 				unlockableName = "",
-				descriptionToken = "Characters and enemies move faster at low health"
+				descriptionToken = "[SEMI-FUNCTIONING] Characters and enemies move faster at low health (BUGGED: enemies in MP fly around)"
 			});
 		}
 	}

@@ -27,6 +27,8 @@ namespace Utilities
 
 		public static string BackupAssemblyPath => $@"{AssemblyPath}.original";
 
+		public static string PatchZipFileName => "patch.zip";
+
 		public static void EnsureBackup()
 		{
 			// No backup?

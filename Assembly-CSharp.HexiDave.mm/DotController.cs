@@ -18,8 +18,8 @@ namespace RoR2
 				{
 					case DotIndex.PercentBurn:
 					case DotIndex.Burn:
-						duration *= 0.5f;
-						damageMultiplier *= 0.3f;
+						duration *= 0.8f;
+						damageMultiplier *= 0.5f;
 						break;
 					case DotIndex.Helfire:
 						duration *= 0.5f;
